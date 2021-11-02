@@ -1,0 +1,13 @@
+
+server:
+  port: 8761
+
+eureka:
+  #  instance:
+  #    hostname: ${DOMAIN:localhost}
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
+#  server:
+#    enableSelfPreservation:
